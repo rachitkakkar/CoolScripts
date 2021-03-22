@@ -1,5 +1,5 @@
 import stripe
-stripe.api_key = "token
+stripe.api_key = "token"
 
 client = stripe.Token.create(
   card={
